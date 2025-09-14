@@ -1,0 +1,43 @@
+# Build output
+/build/
+
+# Object & dependency files (in case some end up outside build/)
+*.o
+*.obj
+*.d
+
+# Disk images / ISOs / debug dumps
+*.img
+*.iso
+*.bin
+*.map
+
+# Temporary mount directory used by scripts
+mnt-esp/
+
+# Editor / IDE / tooling metadata
+.vscode/
+.idea/
+*.code-workspace
+
+# Swap / backup / OS cruft
+*~
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Core dumps
+core
+core.*
+
+# GDB history
+.gdb_history
+
+# Logs
+*.log
+
+# If you build additional artifacts (e.g. iso stage dirs), add them here.
+# NOTE: The firmware blobs in OVMFbin/ and the Limine binaries in limine/ are
+# currently tracked. Remove them from version control or add entries here if
+# you prefer to fetch them dynamically.
